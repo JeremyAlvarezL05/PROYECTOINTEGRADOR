@@ -1,8 +1,8 @@
-# 🏥 Sistema de Gestión Clínica - Integrador UTP
+Sistema de Gestión Clínica - Integrador UTP
 
 Un sistema integral de gestión clínica desarrollado en Java con interfaz Swing, diseñado para administrar pacientes, médicos, citas e historias clínicas de manera eficiente y segura.
 
-## 🚀 Características Principales
+Características Principales
 
 - **Gestión de Pacientes**: Registro, edición y consulta de información de pacientes
 - **Gestión de Médicos**: Administración de profesionales médicos y especialidades
@@ -15,7 +15,7 @@ Un sistema integral de gestión clínica desarrollado en Java con interfaz Swing
 - **Monitoreo Avanzado**: Sistema de monitoreo en tiempo real
 - **Backup Automatizado**: Gestión completa de backups de base de datos
 
-## 🛠️ Tecnologías Utilizadas
+Tecnologías Utilizadas
 
 - **Java 22**: Lenguaje principal de desarrollo
 - **Swing**: Framework para la interfaz gráfica
@@ -27,7 +27,7 @@ Un sistema integral de gestión clínica desarrollado en Java con interfaz Swing
 - **Apache Commons**: Librerías utilitarias
 - **Google Guava**: Colecciones y utilidades adicionales
 
-## 📁 Estructura del Proyecto
+Estructura del Proyecto
 
 ```
 clinica-integrador/
@@ -47,7 +47,7 @@ clinica-integrador/
 └── scripts/            # Scripts de despliegue y monitoreo
 ```
 
-## ⚡ Inicio Rápido
+Inicio Rápido
 
 ### Requisitos Previos
 
@@ -55,7 +55,7 @@ clinica-integrador/
 - Maven 3.6+
 - MySQL 5.7+ o MariaDB 10.2+ (recomendado: XAMPP)
 
-### 🚀 Instalación y Despliegue
+Instalación y Despliegue
 
 #### 1. Despliegue Automático (Recomendado)
 
@@ -91,7 +91,7 @@ C:\ClinicaApp\iniciar.bat
 C:\ClinicaApp\iniciar-silencioso.bat
 ```
 
-### 🎮 Monitoreo del Sistema
+Monitoreo del Sistema
 
 ```bash
 # Monitor interactivo con verificaciones automáticas
@@ -105,7 +105,7 @@ monitor-sistema.bat
 - ✅ Métricas de sistema y logs
 - ✅ Opciones interactivas para gestión
 
-## 🕒 Sistema de Cron Job Nativo
+Sistema de Cron Job Nativo
 
 ### Características
 
@@ -141,7 +141,7 @@ java -cp target/classes Main.MainTareaProgramada
 5. Probar con datos de ejemplo
 6. Salir
 
-## 💾 Sistema de Backup Automatizado
+Sistema de Backup Automatizado
 
 ### Scripts de Backup
 
@@ -163,7 +163,7 @@ restaurar-backup.bat
 - **Restauración segura** con confirmaciones
 - **Integración** con el sistema de monitoreo
 
-## 🧪 Testing y Calidad de Software
+Testing y Calidad de Software
 
 ### Tipos de Testing Implementados
 
@@ -197,7 +197,7 @@ mvn test -Dtest=SoftwareQualityTest
 mvn test -Dtest=SecurityTest
 ```
 
-## � Seguridad y Auditoría
+Seguridad y Auditoría
 
 ### Características de Seguridad
 
@@ -215,7 +215,7 @@ mvn test -Dtest=SecurityTest
 | **Auditoría**  | `logs/audit.log`   | Acciones de usuarios y seguridad |
 | **Cron Job**   | Integrado          | Logs de tareas programadas       |
 
-## � Documentación Técnica
+Documentación Técnica
 
 ### Documentación Unificada
 
@@ -232,7 +232,7 @@ La documentación técnica está organizada en la carpeta `docs/` con archivos u
 
 Ver **[DOCUMENTACION-TECNICA.md](DOCUMENTACION-TECNICA.md)** para el índice completo de toda la documentación técnica disponible.
 
-## �👥 Usuarios por Defecto
+Usuarios por Defecto
 
 El sistema incluye usuarios predefinidos para testing:
 
@@ -242,7 +242,7 @@ El sistema incluye usuarios predefinidos para testing:
 | doctor    | doctor123  | Médico        |
 | recepcion | recep123   | Recepcionista |
 
-## � Dashboard y Reportes
+Dashboard y Reportes
 
 - Panel de control con métricas principales
 - Reportes de citas por período
@@ -250,7 +250,7 @@ El sistema incluye usuarios predefinidos para testing:
 - Historial de acciones recientes
 - Monitor de tareas programadas en tiempo real
 
-## 🎯 Casos de Uso Principales
+Casos de Uso Principales
 
 1. **Registro de Paciente**: Nuevo paciente en el sistema
 2. **Programación de Cita**: Asignación de cita médica
@@ -260,7 +260,7 @@ El sistema incluye usuarios predefinidos para testing:
 6. **Cancelación Automática**: Citas no atendidas procesadas automáticamente
 7. **Backup y Restauración**: Gestión de datos del sistema
 
-## 🎤 Para Presentación Académica
+Para Presentación Académica
 
 ### Demostración Completa (10 minutos)
 
@@ -306,14 +306,14 @@ backup-bd.bat
 
 ### Números para Impresionar
 
-- 📦 **48 dependencias** gestionadas automáticamente
-- ✅ **50+ tests** implementados (TDD, calidad, seguridad)
-- 🔧 **88 archivos** compilados correctamente
-- 💾 **36MB** JAR ejecutable final
-- 🕒 **Cron job nativo** sin dependencias externas
-- 🏥 **7 opciones** de monitoreo integradas
-- 💾 **Backup automático** con gestión inteligente
-- 🔐 **3 tipos de logs** implementados
+- **48 dependencias** gestionadas automáticamente
+-  **50+ tests** implementados (TDD, calidad, seguridad)
+-  **88 archivos** compilados correctamente
+-  **36MB** JAR ejecutable final
+-  **Cron job nativo** sin dependencias externas
+-  **7 opciones** de monitoreo integradas
+-  **Backup automático** con gestión inteligente
+-  **3 tipos de logs** implementados
 
 ### Conceptos Técnicos Demostrados
 
@@ -325,7 +325,7 @@ backup-bd.bat
 - **Logging**: Sistema de logs estructurado
 - **Backup/Restore**: Gestión de datos empresarial
 
-## 🔧 Comandos Útiles
+## Comandos Útiles
 
 ```bash
 # Compilar proyecto
@@ -353,7 +353,7 @@ java -cp target/classes Main.MainTareaProgramada
 java -cp target/classes Main.Main
 ```
 
-## 🎯 Valor Académico
+##  Valor Académico
 
 Este proyecto demuestra:
 
@@ -390,7 +390,7 @@ Este proyecto demuestra:
 **Proyecto Académico** - Curso Integrador I: Sistemas Software  
 **Universidad Tecnológica del Perú (UTP)**
 
-**🏆 Sistema completo con implementación profesional de:**
+** Sistema completo con implementación profesional de:**
 
 - ✅ Cron job nativo en Java
 - ✅ Sistema de monitoreo avanzado
